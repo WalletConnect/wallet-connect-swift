@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/hewigovens/WalletConnect.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
+  s.osx.deployment_target = '10.14'
   s.source_files = 'WalletConnect/**/*'
   s.exclude_files = ["WalletConnect/Info.plist"]
   s.swift_version = '5.0'
